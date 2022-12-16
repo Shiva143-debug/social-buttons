@@ -1,0 +1,72 @@
+.container {
+  background-image: url("https://assets.ccbp.in/frontend/react-js/social-buttons-bg.png");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: white;
+  font-family: "Bree Serif";
+  font-size: 24px;
+  font-weight: bold;
+}
+.button-container {
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto";
+}
+.b1 {
+  color: white;
+  background-color: #eab308;
+  border-radius: 8px;
+  padding: 5px;
+  margin: 10px;
+  border-color: transparent;
+}
+.b2 {
+  color: #323f4b;
+  background-color: white;
+  border-radius: 8px;
+  padding: 5px;
+  margin: 10px;
+  border-color: transparent;
+}
+.b3 {
+  color: white;
+  background-color: #1d4ed8;
+  border-radius: 8px;
+  padding: 5px;
+  margin: 10px;
+  border-color: transparent;
+}
+
+@media (max-width: 768px) {
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto";
+  }
+  .heading {
+    color: white;
+    font-family: "Bree Serif";
+    font-size: 24px;
+    font-weight: bold;
+  }
+}
+
+@media (min-width: 768px) {
+  .button-container {
+    display: flex;
+    flex-direction: row;
+    font-family: "Roboto";
+  }
+  .heading {
+    color: white;
+    font-family: "Bree Serif";
+    font-size: 42px;
+    font-weight: bold;
+  }
+}
